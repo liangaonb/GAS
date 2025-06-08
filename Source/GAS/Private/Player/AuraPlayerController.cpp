@@ -56,7 +56,7 @@ void AAuraPlayerController::Move(const FInputActionValue& InputActionValue)
 
 	if (APawn* ControlledPawn = GetPawn<APawn>())
 	{
-		ControlledPawn->AddMovementInput(ForwardDirection, InputAxisVector.Y); // WASD中WS是纵向Y轴，AD是横向X轴
+		ControlledPawn->AddMovementInput(ForwardDirection, InputAxisVector.Y); // WASD中WS是纵向Y轴，AD是横向X轴（对于输入而言），角色的forward仍是自己的X轴
 		ControlledPawn->AddMovementInput(RightDirection, InputAxisVector.X);
 	}
 }
