@@ -9,13 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="74a9e9b7-973f-4994-a93e-c50cda8ff2c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Private/AbilitySystem/AuraAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Private/AbilitySystem/AuraAttributeSet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Private/Characters/AuraCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Private/Characters/AuraCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Private/Characters/AuraEnemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Private/Characters/AuraEnemy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Private/Player/AuraPlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Private/Player/AuraPlayerState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Public/AbilitySystem/AuraAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Public/AbilitySystem/AuraAttributeSet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Public/Characters/AuraCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Public/Characters/AuraCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Public/Characters/AuraEnemy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Public/Characters/AuraEnemy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAS.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/GAS.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +31,14 @@
     <setting file="file://$PROJECT_DIR$/Source/GAS/Private/Characters/AuraEnemy.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GAS/Private/Player/AuraPlayerController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GAS/Private/Player/AuraPlayerState.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GAS/Private/UI/Widget/AuraUserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GAS/Private/UI/WidgetController/AuraWidgetController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GAS/Public/Characters/AuraCharacter.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GAS/Public/Characters/AuraCharacterBase.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GAS/Public/Characters/AuraEnemy.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GAS/Public/Player/AuraPlayerController.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GAS/Public/Player/AuraPlayerState.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GAS/Public/UI/Widget/AuraUserWidget.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -179,6 +177,7 @@
       <workItem from="1749380151358" duration="2510000" />
       <workItem from="1749566297791" duration="1474000" />
       <workItem from="1749568157409" duration="5102000" />
+      <workItem from="1749650570339" duration="8075000" />
     </task>
     <servers />
   </component>
