@@ -17,6 +17,12 @@ struct FAuraAttributeInfo
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	FText AttributeName;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	FText AttributeDescription;
+
+	UPROPERTY(BlueprintReadOnly)
+	float AttributeValue = 0.f;
 };
 
 /**
@@ -26,5 +32,10 @@ UCLASS()
 class GAS_API UAttributeInfo : public UDataAsset
 {
 	GENERATED_BODY()
+
+public:
+	FAuraAttributeInfo FindAttributeInfoForTag(const FGameplayTag& AttributeTag, bool bLogNotFound = false) const;
 	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	TArray<FAuraAttributeInfo> AttributeInformation;
 };
