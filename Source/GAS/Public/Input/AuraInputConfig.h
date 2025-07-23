@@ -20,7 +20,7 @@ public:
 	const UInputAction* InputAction = nullptr;
 
 	UPROPERTY(EditDefaultsOnly)
-	const FGameplayTag InputTag = FGameplayTag();
+	FGameplayTag InputTag = FGameplayTag();
 };
 
 /**
