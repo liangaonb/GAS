@@ -35,6 +35,8 @@ private:
 	void AbilityInputTagReleased(FGameplayTag InputTag);
 	void AbilityInputTagHeld(FGameplayTag InputTag);
 
+	void AutoRUn();
+
 	UAuraAbilitySystemComponent* GetASC();
 	
 	UPROPERTY(EditAnywhere, Category = "Input")
@@ -63,4 +65,6 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<USplineComponent> Spline;
+
+	FHitResult CursorHit;
 };
