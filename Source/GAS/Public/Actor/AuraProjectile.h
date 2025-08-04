@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "NiagaraSystem.h"
 #include "AuraProjectile.generated.h"
 
 class UProjectileMovementComponent;
@@ -16,6 +17,7 @@ class GAS_API AAuraProjectile : public AActor
 	
 public:	
 	AAuraProjectile();
+	virtual void Destroyed() override;
 
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UProjectileMovementComponent> ProjectileMovement;
@@ -29,4 +31,21 @@ protected:
 private:
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<USphereComponent> Sphere;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UNiagaraSystem> ImpactEffect;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<USoundBase> ImpactSound;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<USoundBase> LoopingSound;
+
+	UPROPERTY()
+	TObjectPtr<UAudioComponent> LoopingSoundComponent;
+
+	bool bHit;
+
+	UPROPERTY(EditDefaultsOnly)
+	float LifeSpan = 15.f;
 };

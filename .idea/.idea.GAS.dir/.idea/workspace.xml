@@ -7,17 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74a9e9b7-973f-4994-a93e-c50cda8ff2c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/GameplayAbilities/Fire/FireBolt/GA_FireBolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/GameplayAbilities/Fire/FireBolt/GA_FireBolt.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/Aura/BP_AuraCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/Aura/BP_AuraCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Private/AbilitySystem/Abilities/AuraProjectileSpell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Private/AbilitySystem/Abilities/AuraProjectileSpell.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Private/AbilitySystem/AbilityTasks/TargetDataUnderMouse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Private/AbilitySystem/AbilityTasks/TargetDataUnderMouse.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Private/Characters/AuraCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Private/Characters/AuraCharacterBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Private/Global/AuraAssetManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Private/Global/AuraAssetManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Public/AbilitySystem/Abilities/AuraProjectileSpell.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Public/AbilitySystem/Abilities/AuraProjectileSpell.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/Public/AbilitySystem/AbilityTasks/TargetDataUnderMouse.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/Public/AbilitySystem/AbilityTasks/TargetDataUnderMouse.h" afterDir="false" />
-    </list>
+    <list default="true" id="74a9e9b7-973f-4994-a93e-c50cda8ff2c9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +207,7 @@
       <workItem from="1753711787020" duration="14508000" />
       <workItem from="1753890318061" duration="13325000" />
       <workItem from="1754188321084" duration="1039000" />
-      <workItem from="1754189383108" duration="2400000" />
+      <workItem from="1754189383108" duration="2995000" />
     </task>
     <task id="LOCAL-00001" summary="Add Cast FireBolt Event">
       <option name="closed" value="true" />
