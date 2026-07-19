@@ -14,8 +14,8 @@ public class GAS : ModuleRules
 			"CoreUObject", 
 			"Engine", 
 			"InputCore", 
-			"EnhancedInput", 
-			"GameplayAbilities"  
+			"EnhancedInput",
+			"GameplayAbilities"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[]

@@ -21,13 +21,15 @@ class GAS_API AAuraCharacterBase : public ACharacter, public IAbilitySystemInter
 public:
 	AAuraCharacterBase();
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
+	virtual UAnimMontage* GetHitReactMontage_Implementation() override;
 	UAttributeSet* GetAttributeSet() const { return AttributeSet; }
+	
 protected:
 	virtual void BeginPlay() override;
 	virtual void InitAbilityActorInfo();
 	virtual FVector GetCombatSocketLocation() override;
-	void ApplyEffectToSelf(TSubclassOf<UGameplayEffect> GameplayEffectClass, float Level);
 	virtual void InitializeDefaultAttributes();
+	void ApplyEffectToSelf(TSubclassOf<UGameplayEffect> GameplayEffectClass, float Level);
 	void AddCharacterAbilities();
 
 	UPROPERTY(EditAnywhere, Category = "Combat")
@@ -54,4 +56,7 @@ protected:
 private:
 	UPROPERTY(EditAnywhere, Category="Abilities")
 	TArray<TSubclassOf<UGameplayAbility>> StartupAbilities;
+
+	UPROPERTY(EditAnywhere, Category="Combat")
+	TObjectPtr<UAnimMontage> HitReactMontage;
 };

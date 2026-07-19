@@ -26,10 +26,10 @@ void AAuraPlayerController::PlayerTick(float DeltaTime)
 
 	CursorTrace();
 
-	AutoRUn();
+	AutoRun();
 }
 
-void AAuraPlayerController::AutoRUn()
+void AAuraPlayerController::AutoRun()
 {
 	if (!bAutoRunning) return;
 	if (APawn* ControlledPawn = GetPawn())
